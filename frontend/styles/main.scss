@@ -3,6 +3,7 @@ body {
     font-family: 'Assistant', sans-serif;
   }
   
+
   .navbar-brand {
     img {
       max-height: 40px;
@@ -39,3 +40,37 @@ body {
       background-color: #1e3771;
     }
   }
+
+//   header
+
+header {
+    padding: 180px 0px 165px;
+    margin-top: -80px;
+    background-image: url("../images/header@2x.jpg");
+    background-size: cover;
+
+    h1, p {
+        color: #fff;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-get-started{
+        background-color: #ffe953;
+        color : #fff;
+        
+        &:hover {
+            background-color: #ffaa69;
+            color : #fff;
+        }
+    }
+
+}
