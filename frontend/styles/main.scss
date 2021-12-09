@@ -66,11 +66,34 @@ header {
     .btn-get-started{
         background-color: #ffe953;
         color : #fff;
-        
+
         &:hover {
             background-color: #ffaa69;
             color : #fff;
         }
     }
 
+}
+
+// stats
+
+.section-stats {
+    margin-top: -50px;
+    
+
+    .stats-detail {
+        padding-top: 16px;
+        background-color: #fff;
+        padding-left: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+     
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+    }
 }
