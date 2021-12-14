@@ -97,3 +97,33 @@ header {
         font-weight: lighter;
     }
 }
+
+
+// Section Popular
+
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+
+}
+.section-popular-heading {
+  margin-top: 150px;
+
+
+  h2, p {
+    color: #fff;
+  }
+
+  h2 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}

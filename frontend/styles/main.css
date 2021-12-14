@@ -84,4 +84,30 @@ header .btn-get-started:hover {
   font-size: 20px;
   font-weight: lighter;
 }
+
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular-heading h2, .section-popular-heading p {
+  color: #fff;
+}
+
+.section-popular-heading h2 {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular-heading p {
+  font-size: 18px;
+}
 /*# sourceMappingURL=main.css.map */
