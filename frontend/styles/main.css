@@ -1,5 +1,5 @@
 body {
-  background-color: #E4E6EB;
+  background-color: #fff;
   font-family: 'Assistant', sans-serif;
 }
 
@@ -56,7 +56,7 @@ header p {
 }
 
 header .btn-get-started {
-  background-color: #ffe953;
+  background-color: #ff9e53;
   color: #fff;
 }
 
@@ -137,5 +137,21 @@ header .btn-get-started:hover {
 
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
   background-color: #ffae6f;
+}
+
+.section-networks {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.section-networks img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
