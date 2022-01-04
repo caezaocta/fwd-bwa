@@ -1,101 +1,102 @@
 body {
-    background-color: #fff;
-    font-family: 'Assistant', sans-serif;
-  }
-  
+  background-color: #fff;
+  font-family: 'Assistant', sans-serif;
+}
 
-  .navbar-brand {
-    img {
-      max-height: 40px;
-    }
+
+.navbar-brand {
+  img {
+    max-height: 40px;
   }
-  
-  .btn-navbar-right {
-    margin-top: -10px !important;
-    height: 70px;
-    margin-bottom: -8px !important;
-    margin-right: -18px !important;
-    border-radius: 0;
-  }
-  
-  .navbar-light {
-    .navbar-nav {
-      .nav-link {
-        color: #071C4D;
-  
-        &.active {
-          font-weight: bold;
-          color: #071C4D !important;
-        }
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  height: 70px;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  border-radius: 0;
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #071C4D;
+
+      &.active {
+        font-weight: bold;
+        color: #071C4D !important;
       }
     }
   }
-  
-  .btn-login {
-    background-color: #071C4D;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #fff;
+
+  &:hover {
     color: #fff;
-  
-    &:hover {
-      color: #fff;
-      background-color: #1e3771;
-    }
+    background-color: #1e3771;
   }
+}
 
 //   header
 
 header {
-    padding: 180px 0px 165px;
-    margin-top: -80px;
-    background-image: url("../images/header@2x.jpg");
-    background-size: cover;
+  padding: 180px 0px 165px;
+  margin-top: -80px;
+  background-image: url("../images/header@2x.jpg");
+  background-size: cover;
 
-    h1, p {
-        color: #fff;
+  h1,
+  p {
+    color: #fff;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .btn-get-started {
+    background-color: #ff9e53;
+    color: #fff;
+
+    &:hover {
+      background-color: #ffaa69;
+      color: #fff;
     }
-
-    h1 {
-        font-family: 'Playfair Display', serif;
-        font-weight: bold;
-        font-size: 50px;
-    }
-
-    p {
-        font-size: 22px;
-    }
-
-    .btn-get-started{
-        background-color: #ff9e53;
-        color : #fff;
-
-        &:hover {
-            background-color: #ffaa69;
-            color : #fff;
-        }
-    }
+  }
 
 }
 
 // stats
 
 .section-stats {
-    margin-top: -50px;
-    
+  margin-top: -50px;
 
-    .stats-detail {
-        padding-top: 16px;
-        background-color: #fff;
-        padding-left: 40px;
-    }
 
-    h2 {
-        font-size: 30px;
-        margin-bottom: 0;
-    }
-     
-    p {
-        font-size: 20px;
-        font-weight: lighter;
-    }
+  .stats-detail {
+    padding-top: 16px;
+    background-color: #fff;
+    padding-left: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
 }
 
 
@@ -109,19 +110,20 @@ header {
 
   .section-popular-heading {
     margin-top: 150px;
-  
-  
-    h2, p {
+
+
+    h2,
+    p {
       color: #fff;
     }
-  
+
     h2 {
       color: #fff;
       font-family: 'Playfair Display', serif;
       font-weight: bold;
       font-size: 40px;
     }
-  
+
     p {
       font-size: 18px;
     }
@@ -179,9 +181,92 @@ header {
   h2 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    color: #051334;
+    font-size: 40px;
+  }
+
+  p {
+    color: #051334;
+    font-size: 18px;
   }
 
   img {
     max-width: 100%;
+  }
+}
+
+
+// section testimonial heading
+
+.section-testimonial-heading {
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #051334;
+  }
+
+  p {
+    color: #051334;
+    font-size: 18px;
+  }
+}
+
+// section testimonial contents
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+
+  .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+
+    .testimonial-content {
+      min-height: 380px;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    .testimonial {
+      font-weight: 200;
+      font-size: 24px;
+      color: #6e6e6e;
+      min-height: 160px
+    }
+
+    .trip-to {
+      font-weight: normal;
+      font-size: 22px;
+      color: #6e6e6e;
+    }
+
+    hr {
+      margin: 0 -20px 0 -20px;
+    }
+  }
+
+  .btn-get-started {
+    background-color: #ff9e53;
+    color: #fff;
+
+    &:hover {
+      background-color: #ffae6f;
+    }
+  }
+
+  .btn-need-help {
+    background-color: #fafafa;
+    color: #000000;
+
+    &:hover {
+      background-color: #fafafa;
+    }
   }
 }
