@@ -236,4 +236,8 @@ header .btn-get-started:hover {
 .section-testimonial-content .btn-need-help:hover {
   background-color: #fafafa;
 }
+
+.section-footer a {
+  color: #071c4d;
+}
 /*# sourceMappingURL=main.css.map */
